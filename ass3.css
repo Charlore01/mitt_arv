@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+   font-family:Young Serif ;
+}
+/* Remember to get the fontfamily:young-serif for this project */
+
+body{
+    background-color: antiquewhite;
+}
+#head {
+    border: 1px solid #fff;
+   text-align: center;
+}
+
+#main {
+  background-color: white;
+  max-width: 550px;
+  margin-left: 400px;
+  padding: 26px;
+  /* text-align: center; */
+  border-radius: 19px;
+}
+
+ul,ol {
+    list-style: inside;
+}
+
+#nav,#subnav2,#nav2 {
+    margin-top: 25px;
+}
+
+#subnav1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nav2 {
+    background-color: rgba(255, 192, 203, 0.226);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#nav2>ul>li{
+   margin-left: 10px;
+}
+
+#nav2>ul>p {
+   font-weight: bold;
+   color: hsl(332, 51%, 32%);
+}
+
+span {
+    font-weight: bold;
+}
+
+ul>li, #subnav7 {
+    margin-top: 10px;
+}
+
+#nav3>ul>p,#nav4>ol>P, #nav5 {
+    font-size: 17.5px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+#nav3>ul>li:last-child, #nav4>ol>li:last-child {
+    border-bottom: 1px solid #0000001b; 
+    padding-bottom: 20px;
+}
+
+#nav4>ol {
+    list-style: decimal;
+}
+
+#nav4>ol>li {
+    margin-left: 20px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+#nav6 {
+    margin-top: 10px;
+}
+
+#nav7>div>span {
+   font-weight: normal;
+   margin-top: 10px;
+}
+
+table {
+    margin-top: 10px;
+}
+
+td {
+    padding: 7px;
+    border-bottom: 1px solid #0000001c;
+}
+
+td:nth-child(even) {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
